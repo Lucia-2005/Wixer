@@ -122,7 +122,11 @@ section p{
     font-weight: bold;
 }
 
-/* Amazing Creativity */
+/* Adorable Features */
+
+#adorableFeatures h2{
+    font-family:public sans;
+}
 
 .facts{
     display: inline-block;
