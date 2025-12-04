@@ -62,6 +62,7 @@ header{
 /* otras secciones */
 
 
+
 h2{
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -121,6 +122,8 @@ section p{
     font-weight: bold;
 }
 
+/* Amazing Creativity */
+
 .facts{
     display: inline-block;
     margin: 20px 40px;
@@ -133,30 +136,40 @@ section p{
     color:rgb(95, 95, 95);
 }
 
-contenedor-af{
+.contenedor-af{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap:30px;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-contenedor-af img{
-    width: 250px;
-    height: auto;
+.con-af-img{
+    width: 50%;
+    height: 100%;
+    align-items: center;
 }
 
-art-af{
+.con-af-frases{
+    width:50%;
+    text-align: left;
     display:flex;
     flex-direction: column;
-    gap:20px;
+    justify-content: space-between;
 }
 
-.art-af .top-row{
+.art-af{
     display:flex;
-    align-items: flex-start;
-    gap:5px;
+    flex-direction: row;
+    padding-left: 80px ;
+    padding-right: 80px;
+    padding-top: 20px;;
 }
+
+.art-af img{
+    width:40%;
+    height: 40%;
+}
+
+
 
 
 
