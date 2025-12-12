@@ -33,9 +33,17 @@ header{
     justify-content: space-between;
 }
 
-.icono-header{
-    margin-left: 1px;
-    font-size: 12px;
+.icono-menu{
+    margin-right: 20px;
+    
+
+}
+
+#redes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 20px;
 }
 
 
