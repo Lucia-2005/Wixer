@@ -4,8 +4,7 @@ body{
 }
 
 
-
-/* Header Styles */
+/* Header */
 
 ul{
     list-style-type: none;
@@ -13,7 +12,7 @@ ul{
     overflow: hidden;
     display: flex;
     justify-content: center;
-}
+} 
 
 li{
     margin: 0 19px;
@@ -49,18 +48,18 @@ header{
 
 /* primera seccion*/
 
-#section1{
+#home{
    background-image: linear-gradient(to right, rgb(196, 209, 224) , rgb(221, 230, 230));
    
 }
 
-#section1 h2{
+#home h2{
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 45px;
    margin:0px 270px;
 }
 
-#section1 p {
+#home p {
     font-size: 17px;
     color: rgb(22, 22, 22);
     margin:20px 280px;
@@ -107,7 +106,7 @@ section p{
     background-color: rgb(235, 235, 235);
 }
 
-
+/* Home */
 
 #get-started{
     background-color: rgb(240, 86, 26);
@@ -130,9 +129,9 @@ section p{
     font-weight: bold;
 }
 
-/* Adorable Features */
+/* Features */
 
-#adorableFeatures h2{
+#features h2{
     font-family:public sans;
 }
 
@@ -155,13 +154,13 @@ section p{
 }
 
 .con-af-img{
-    width: 50%;
+    width: 45%;
     height: 100%;
     align-items: center;
 }
 
 .con-af-frases{
-    width:50%;
+    width:45%;
     text-align: left;
     display:flex;
     flex-direction: column;
@@ -173,12 +172,12 @@ section p{
     flex-direction: row;
     padding-left: 80px ;
     padding-right: 80px;
-    padding-top: 20px;;
+    padding-top: 20px;
 }
 
 .art-af img{
-    width:40%;
-    height: 40%;
+    width:30px;
+    height:30px;
 }
 
 
