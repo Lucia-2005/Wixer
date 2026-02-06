@@ -434,7 +434,7 @@ section.modeling {
   align-items: flex-start;
 
   .contenedor-modeling {
-    width: 80%;
+    width: 70%;
     display: flex;
     gap: 40px;
     align-items: flex-start;
@@ -770,8 +770,8 @@ footer p {
 
 /* Responsive tamaño tablet */
 @media (width <= 1000px) {
-  section {
-    padding: 80px 60px;
+  body {
+    padding: 60px 40px;
   }
 
   /* Cards */
@@ -856,6 +856,7 @@ footer p {
     flex-direction: column-reverse;
     gap: 30px;
     align-items: center;
+    padding: 80px 10px;
 
     .container {
       align-items: center;
@@ -934,7 +935,7 @@ footer p {
 @media (width <= 750px) {
   /* Secciones */
   section {
-    padding: 50px 20px;
+    padding: 40px 16px;
     width: 100%;
     box-sizing: border-box;
   }
