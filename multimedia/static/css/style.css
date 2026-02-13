@@ -79,8 +79,9 @@ body {
   }
 
   h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans serif;
     font-size: 43px;
+    font-weight:400;
   }
 
   p {
@@ -328,7 +329,7 @@ section.home {
   }
 
   h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans serif;
     font-size: 62px;
     margin: 0 auto;
     max-width: 700px;
@@ -341,33 +342,26 @@ section.home {
     max-width: 500px;
   }
 
+    a {
+      background-color: rgb(29, 27, 27);
+      border: solid 0px;
+      padding: 15px 45px;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
   a:first-of-type {
     background-color: rgb(240, 86, 26);
-    border: solid 0px;
-    padding: 8px 18px;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
     margin-right: 10px;
   }
 
-  a {
-    background-color: rgb(29, 27, 27);
-    border: solid 0px;
-    padding: 8px 18px;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
+
 }
 
 
 section.features {
-  h2 {
-    font-family: public sans;
-  }
 
   div:first-of-type {
     display: flex;
@@ -803,7 +797,7 @@ footer p {
 /* ------------------------- */
 
 /* Responsive tamaño tablet */
-@media (width <= 1000px) {
+@media (width <= 900px) {
   body {
     padding: 60px 40px;
   }
@@ -839,10 +833,9 @@ footer p {
 
   /* Features */
   section.features {
-    gap: 40px;
 
     div:first-of-type {
-      gap: 40px;
+
     }
 
     .art-af {
